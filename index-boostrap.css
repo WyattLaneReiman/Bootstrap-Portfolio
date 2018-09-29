@@ -15,6 +15,16 @@ body {
     margin-bottom: 110px;
 }
 
+h2 {
+    text-align: left;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 15px;
+
+}
+
 hr {
     color: #dddddd;
 }
@@ -35,15 +45,7 @@ p {
 .about-me {
     padding-right: 15px;
 }
-h2 {
-    text-align: left;
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 26px;
-    padding-top: 15px;
 
-}
 footer {
     position: fixed;
     bottom: 0;
@@ -62,13 +64,16 @@ footer {
     
 }
 h3{
-    font-size: 8px;
+    font-size: 9px;
     display: block;
+    font-weight: bold;
+    margin-top: 12px;
 
 
 }
 .navbar-brand {
     background-color: #4aaaa5;
+
     text-align: center;
     padding: 10px;
     padding-top: 15px;
@@ -90,10 +95,14 @@ h3{
 
 #navbarNavAltMarkup {
     height: 64px;
-    border-bottom: 2px #cccccc;
+    
     
 }
 .navbar-light {
-    color:white;
+    border-bottom: 2px solid #ccc;
+
 }
 
+.navbar-light .navbar-brand {
+    color: white;
+}
